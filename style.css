@@ -1,3 +1,18 @@
+body {
+  font-family: 'Bungee', sans-serif;
+
+}
+
+a {
+  color: black !important;
+}
+
+a:hover:before {
+  content: "▶";
+  display: inline-block;
+}
+
+/* Header */
 header {
   width:auto ;
   height: 400px;
@@ -12,3 +27,9 @@ header img {
   box-shadow: 10px 10px 0px 0 rgba(80, 80, 80, 0.8);
 }
 
+/* Navbar */
+nav {
+  border-style: double;
+  border-color: black;
+  border-width: 10px;
+}

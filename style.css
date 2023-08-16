@@ -1,6 +1,5 @@
 body {
   font-family: 'Bungee', sans-serif;
-
 }
 
 a {
@@ -28,8 +27,33 @@ header img {
 }
 
 /* Navbar */
-nav {
+.border-double {
   border-style: double;
   border-color: black;
   border-width: 10px;
+}
+
+/* About Me */
+.aboutMe-photo {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.aboutMe-photo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.aboutMe-text p {
+  font-family: 'Zen Dots', sans-serif;
+}
+
+.skill-item {
+  font-size: 55px;
+  text-align: center;
+}
+
+.skill-item p {
+  font-family: 'Zen Dots', sans-serif;
+  font-size: 10px;
 }

@@ -6,10 +6,16 @@
   <title>Akane's Portfolio</title>
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- Google Fonts VT323 -->
+  <!-- Google Fonts Bungee -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
+  <!-- Google Fonts Zen Dots -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans&family=VT323&family=Zen+Dots&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/fe1102712b.js" crossorigin="anonymous"></script>
   <!-- Style.css -->
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -21,7 +27,7 @@
   </header>
   
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-light">
+  <nav class="navbar navbar-expand-md navbar-light border-double">
     <div class="container-fluid">
       <button class="navbar-toggler border-0 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,26 +53,46 @@
 
   <!-- About Me -->
   <div class="container-fluid">
-    <div class="aboutMe-wrapper">
+    <div class="aboutMe-wrapper mt-4">
       <div class="row">
         <!-- About Me Card -->
-        <div class="col-8" id="aboutMe">
+        <div class="col-8 border-double" id="aboutMe">
           <div class="row aboutMe-card">
-            <div class="col-4 aboutMe-photo"></div>
+            <div class="col-4"> 
+              <div class="aboutMe-photo">
+                <img src="images/AkaneOtakeCVPhoto.jpg" alt="Photo of Akane Otake" />
+              </div>
+            </div>
             <div class="col-8 aboutMe-text">
-              <h4>About Me</h4>
-              <p>My name is Akane Otake.</p>
+              <h4 class="mt-3">&#x25B6;About Me</h4>
+              <p>After being a blogger and working as a web writer I dove myself into the programming world, which I was always interested in. I have a lot of fun studying coding and am very excited about new possibilities with my Tech skills. At this moment I am studying full-stack program at <a href="https://www.altcademy.com">Altcademy</a>.<br><br>I was born in Japan and have been living in Germany since 2011.</p>
             </div>
           </div>
         </div>
         <!-- My Skills -->
-        <div class="col-4" id="mySkills">
-          <h4>My Skills</h4>
-          <div class="d-flex">
-            <div class="html"></div>
-            <div class="css"></div>
-            <div class="bootstrap"></div>
-            <div class="git"></div>
+        <div class="col-4 border-double" id="mySkills">
+          <h4 class="mt-3">&#x25B6;My Skills</h4>
+          <div class="row gx-2">
+            <div class="col-4 col-xl-3 skill-item">
+              <i class="fa-brands fa-html5"></i>
+              <p>HTML 5</p>
+            </div>
+            <div class="col-4 col-xl-3 skill-item">
+              <i class="fa-brands fa-css3-alt"></i>
+              <p>CSS 3</p>
+            </div>
+            <div class="col-4 col-xl-3 skill-item">
+              <i class="fa-brands fa-bootstrap"></i>
+              <p>Bootstrap<br>3/4/5</p>
+            </div>
+            <div class="col-4 col-xl-3 skill-item">
+              <i class="fa-brands fa-git"></i>
+              <p>Git</p>
+            </div>
+            <div class="col-4 col-xl-3 skill-item">
+              <i class="fa-brands fa-github"></i>
+              <p>GitHub</p>
+            </div>
           </div>
         </div>
       </div>

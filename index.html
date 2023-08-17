@@ -33,7 +33,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav px-4">
           <li class="nav-item pe-3">
             <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
           </li>
@@ -54,11 +54,11 @@
   <!-- About Me -->
   <div class="container-fluid">
     <div class="aboutMe-wrapper mt-4">
-      <div class="row">
+      <div class="row justify-content-evenly">
         <!-- About Me Card -->
-        <div class="col-12 col-md-8 border-double" id="aboutMe">
+        <div class="col-12 col-md-7 border-double" id="aboutMe">
           <div class="row aboutMe-card">
-            <div class="col-4 aboutMe-photo"> 
+            <div class="col-4 aboutMe-photo my-3"> 
               <img src="images/AkaneOtakeCVPhoto.jpg" alt="Photo of Akane Otake" />
             </div>
             <div class="col-8 aboutMe-text">
@@ -99,16 +99,38 @@
 
   <!-- Portfolio -->
   <div class="container-fluid">
-    <div id="portfolio">
+    <div class="border-double mt-4 py-4" id="portfolio">
       <h2 class="text-center">Portfolio</h2>
-      <div class="row">
-        <div class="col-6">
-          <div class="portfolio-img"></div>
+      <div class="row portfolio-item align-items-center px-2 px-sm-5 py-4 py-md-2 py-xl-4">
+        <div class="col-12 col-md-6 portfolio-img">
+          <a href="#"><img src="images/project-airbnb-news-clone.png" alt="Apple clone using HTML/CSS" /></a>
         </div>
-        <div class="col-6">
-          <p>Explanation about the work</p>
+        <div class="col-12 col-md-6 portfolio-text p-4 py-md-5 px-lg-5">
+          <h6>Bootstrap 4</h6>
+          <p>Mobile responsive front end clone of Airbnb News page, using Bootstrap 4. Check out the full site:<br><a href="#">Airbnb News Clone</a></p>
         </div>
       </div>
+
+      <div class="row portfolio-item align-items-center px-2 px-sm-5 py-4 py-md-2 py-xl-4">
+        <div class="col-12 col-md-6 portfolio-img order-md-2">
+          <a href="#"><img src="images/project-newsweek-clone.png" alt="Apple clone using HTML/CSS" /></a>
+        </div>
+        <div class="col-12 col-md-6 portfolio-text p-4 py-md-5 px-lg-5">
+          <h6>Bootstrap 3</h6>
+          <p>Mobile responsive front end clone of Newsweek top page, using Bootstrap 3. Check out the full site:<br><a href="#">Newsweek Clone</a></p>
+        </div>
+      </div>
+
+      <div class="row portfolio-item align-items-center px-2 px-sm-5 py-4 py-md-2 py-xl-4">
+        <div class="col-12 col-md-6 portfolio-img">
+          <a href="#"><img src="images/project-apple-clone.png" alt="Apple clone using HTML/CSS" /></a>
+        </div>
+        <div class="col-12 col-md-6 portfolio-text p-4 py-md-5 px-lg-5">
+          <h6>HTML/CSS</h6>
+          <p>Mobile responsive front end clone of Apple main page, using only HTML & CSS. Check out the full site:<br><a href="#">Apple Clone</a></p>
+        </div>
+      </div>
+
     </div>
   </div>
 

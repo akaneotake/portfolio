@@ -9,7 +9,7 @@ a {
 
 /* Header */
 header {
-  width:auto ;
+  width: auto;
   height: 250px;
   background-image: url(images/header-background-cloud.jpg);
   background-size: cover;
@@ -123,5 +123,37 @@ header img {
 @media (max-width: 575px) {
   .portfolio-text {
     font-size: 12px;
+  }
+}
+
+/* Contact */
+.contact-item {
+  font-size: 55px;
+}
+
+/* Footer */
+footer {
+  width: auto;
+  height: 250px;
+  background-image: url(images/header-background-cloud.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 576px) {
+  footer {
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    height: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  footer {
+    height: 400px;
   }
 }
